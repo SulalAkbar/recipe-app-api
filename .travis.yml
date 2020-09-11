@@ -9,5 +9,5 @@ before_script:
   - pip install djangorestframework==3.9.0
   - pip install flake8==3.6.0
 
-script:
-  python manage.py test && flake8
+# script:
+#   python manage.py test && flake8
